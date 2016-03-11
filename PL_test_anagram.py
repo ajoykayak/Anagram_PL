@@ -43,7 +43,7 @@ def anagrams(word_list,directory):
             pass
 
 def main():
-    filename=input("Enter the library location on your OS in single quotes:  ")
+    filename=input("Enter the library location on your OS in single quotes, without the / at the end:  ")
     directory=input("Enter the directory you want the output file to go to, without the / at the end:  ")
     start=open_OSdict(filename)
     anagrams(start,directory)
