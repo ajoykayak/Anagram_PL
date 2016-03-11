@@ -1,9 +1,9 @@
+import os,sys
 from itertools import permutations
 from collections import defaultdict
 import csv
-import numpy as np
-
-
+# This code takes a dictionary file and converts words that are greater than 4 characters to their anagrams. Then writes the values to a text file
+# Author : Andrea Vander Woude 
 def open_OSdict(filename):
     word_list = []
     with open(filename, 'r') as f:
