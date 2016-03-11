@@ -1,5 +1,4 @@
 from itertools import permutations
-from nltk.corpus import words
 from collections import defaultdict
 import csv
 import numpy as np
